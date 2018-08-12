@@ -1,4 +1,4 @@
-##Installation
+## Installation
 
 Open the Xcode Project in Xcode 9+ and run on the simulator. This project _will not_
 run on device, only sim.
@@ -10,7 +10,7 @@ top of the file navigator and switch to the General tab. Team name is under 'Sig
 - You also need Swift 4+ installed (should be the case if you have Xcode 9 installed).
 - Press the Begin button in the simulator to start processing routes.
 
-##Summary
+## Summary
 
 This project is designed to run in Xcode, on the iPhone simulator. It will output to
 the console and a text file. I wrote the program in Swift as that is the language I
@@ -27,7 +27,7 @@ the genetic algorithms chapter of _Classic Computer Science Problems in Swift_ b
 Kopec, modified to fit the problem and to work in Swift 4.1. The implementation of Routes
 and all other classes, along with fine tuning the algorithm was written from whole cloth.
 
-##Additional
+## Additional
 
 - Swift doesn't include CSV parsing out of the box, and I found it easier to convert the
 file to txt. That's why there are two versions of _Kiosk Coords_ in the bundle.
@@ -40,7 +40,7 @@ the number of generations gets a better result than increasing the population.
 458 KM. Given that Milwaukee is around 300 KM roundtrip from Chicago, I feel pretty
 confident that 450 KM is a reasonable lower bound for this problem.
 
-##Roadmap
+## Roadmap
 
 In this experiment I used straight-line distance (i.e. delivery by drone). It would be
 interesting to convert to driving distance and see if that changes things. Likewise, I
